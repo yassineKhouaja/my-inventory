@@ -22,6 +22,6 @@ jobs:
       - name: Run linting
         run: |
           go fmt ./...
-          go vet ./..
+          go vet ./...
       - name: Run tests
         run: go test
